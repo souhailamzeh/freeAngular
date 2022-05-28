@@ -1,29 +1,98 @@
-<nav  class="navbar navbar-expand-lg bg-success">
-  <div class="container">
-      <div class="navbar-translate">
-          <a class="navbar-brand" href="/presentation.html">Brand</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              <span class="navbar-toggler-icon"></span>
-              <span class="navbar-toggler-icon"></span>
-          </button>
-      </div>
 
-      <div class="collapse navbar-collapse">
-          <ul class="navbar-nav">
-              <li class="nav-item active">
-                  <a href="#pablo" class="nav-link">link</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#pablo" class="nav-link">link</a>
-              </li>
-          </ul>
-
-          <form class="form-inline ml-auto">
-              <div class="form-group no-border">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-          </form>
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="theme-color" content="#FF4655">
+  <meta name="description" content="Killfeed.DEV Web Dashboard: Manage your DayZ Console server">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Killfeed.DEV</title>
+  <script src="https://jondevelopment.com/fa/js/pro.js"></script>
+  <link rel="stylesheet" href="https://jondevelopment.com/fa/css/all.css">
+  <link rel="apple-touch-icon" href="/logo192.png">
+  <link rel="manifest" href="/manifest.json">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>React App</title>
+  <link href="/static/css/main.485b7c77.chunk.css" rel="stylesheet">
+  <script async="" src="/cdn-cgi/challenge-platform/h/b/scripts/invisible.js?ts=1653645600"></script>
+  <style type="text/css">
+    @font-face {
+      font-family: Roboto;
+      src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf");
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="/static/css/3.a0a9711e.chunk.css">
+  <script charset="utf-8" src="/static/js/3.4348ec0c.chunk.js"></script>
+  <script charset="utf-8" src="/static/js/25.614653b8.chunk.js"></script>
+  <script charset="utf-8" src="/static/js/0.9023c7b3.chunk.js"></script>
+  <script charset="utf-8" src="/static/js/19.31f7eb19.chunk.js"></script>
+  <style data-styled="active" data-styled-version="5.3.3"></style>
+</head>
+<div class="sc-iAKWXU fOvdBx pro-sidebar">
+  <div class="sc-efQSVx hdAcxq">
+    <div class="sc-cTAqQK eTktiE">
+      <div class="sc-dPiLbb fBnyYN">
+        <div class="head-div"><span class="head-text"><span class="sidebar-header-content"><span
+                class="sidebar-header-white"><span class="sidebar-header-first">K</span><span
+                  class="sidebar-header-rest">ILLFEED.</span></span><span
+                class="sidebar-header-rest">DEV</span></span></span></div>
       </div>
+      <div class="selected-server-container nss-container">
+        <div class="selected-server-content"><span class="selected-server-text">No Server Selected</span><span
+            class="server-logout-text"><i class="fad fa-sign-in me-2"></i></span></div>
+      </div>
+      <div class="sc-jObWnj ciVRCU pro-sidebar-content sidebar-content">
+        <nav class="sc-bBHHxi geMxg pro-menu">
+          <ul class="sc-cNKqjZ bRLFof menu ">
+              <li class="sc-khQegj cgisYQ">
+                <div class="sc-AjmGg eDphPX" tabindex="0" role="button"><i class="fa-home fa side-icon"></i><span
+                    class="item-content" [routerLink]="['/home']">Home</span></div>
+              </li>
+              <li class="sc-khQegj cgisYQ" [routerLink]="['/eventfeed']">
+                <div class="sc-AjmGg eDphPX" tabindex="0" role="button"><i
+                    class="fa-newspaper fa side-icon"></i><span class="item-content" >Event Feed</span></div>
+              </li>
+              <li class="sc-khQegj cgisYQ" [routerLink]="['/players']">
+                <div class="sc-AjmGg eDphPX" tabindex="0" role="button"><i class="fa-users fa side-icon"></i><span
+                    class="item-content" >Players</span></div>
+              </li>
+              <li class="sc-khQegj cgisYQ">
+                <div class="sc-AjmGg eDphPX" tabindex="0" role="button"><i class="fa-flag fa side-icon"></i><span
+                    class="item-content"  [routerLink]="['/bases']" >Bases</span></div>
+              </li>
+              <li class="sc-khQegj cgisYQ">
+                <div class="sc-AjmGg eDphPX" tabindex="0" role="button"><i
+                    class="fa-house-return fa side-icon" [routerLink]="['/safezones']"></i><span class="item-content">Safezones</span></div>
+              </li>
+              <li class="sc-khQegj cgisYQ" [routerLink]="['/factions']">
+                <div class="sc-AjmGg eDphPX" tabindex="0" role="button"><i
+                    class="fa-user-friends fa side-icon"></i><span class="item-content">Factions</span></div>
+              </li>
+              <li class="sc-khQegj cgisYQ" [routerLink]="['/permissions']">
+                <div class="sc-AjmGg eDphPX" tabindex="0" role="button"><i
+                    class="fa-users-crown fa side-icon"></i><span class="item-content">Permissions</span></div>
+              </li>
+              <li class="sc-khQegj cgisYQ" [routerLink]="['/bountys']">
+                <div class="sc-AjmGg eDphPX" tabindex="0" role="button"><i
+                    class="fa-running fa side-icon"></i><span class="item-content">Bountys</span></div>
+              </li>
+              <li class="sc-khQegj cgisYQ" [routerLink]="['/autoposts']">
+                <div class="sc-AjmGg eDphPX" tabindex="0" role="button"><i
+                    class="fa-comments-alt fa side-icon"></i><span class="item-content">Auto Posts</span></div>
+              </li>
+              <li class="sc-khQegj cgisYQ" [routerLink]="['/currency']">
+                <div class="sc-AjmGg eDphPX" tabindex="0" role="button"><i class="fa-coins fa side-icon"></i><span
+                    class="item-content">Currency</span></div>
+              </li>
+              <li class="sc-khQegj cgisYQ" [routerLink]="['/billing']">
+                <div class="sc-AjmGg eDphPX" tabindex="0" role="button"><i
+                    class="fa-wallet fa side-icon"></i><span class="item-content">Billing</span></div>
+              </li>
+            </ul>
+        </nav>
+      </div>
+    </div>
   </div>
-</nav>
+</div>

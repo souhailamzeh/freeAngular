@@ -23,7 +23,9 @@ export class LoginComponent implements OnInit {
 
   connect()
 {
-  let Email="radhwanrouihm"
+  this.router.navigateByUrl('/home')
+
+/*   let Email="radhwanrouihm"
   let password="usausa"
 
   if((this.email==Email)&&(this.password==password))
@@ -39,6 +41,6 @@ export class LoginComponent implements OnInit {
       icon: 'error',
       confirmButtonText: 'ok'
     })  }
-   }
-
+   } */
+  }
 }
